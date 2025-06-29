@@ -32,7 +32,7 @@ This project demonstrates basic Slack messaging operations using the Slack API a
 ├── get_message.py          # Retrieves latest messages from the channel
 ├── edit_message.py         # Edits a message using timestamp
 ├── delete_message.py       # Deletes a message using timestamp
-├── schedule_message.py     # (Bonus) Schedules a message for later
+├── schedule_message.py     # Schedules a message for later
 ```
 
 ---
@@ -51,28 +51,32 @@ pip install slack_sdk
 Send a message:
 ```bash
 python send_message.py
-# Enter your custom message
 ```
-Schedule a message (Bonus):
+- Enter your custom message
+  
+Schedule a message:
 ```bash
 python schedule_message.py
-# Enter message + delay in seconds (e.g., 60)
 ```
+- Enter message + delay in seconds (e.g., 60)
+  
 View recent messages:
 ```bash
 python get_message.py
-# View last 10 messages and their timestamps
 ```
+- View last 10 messages and their timestamps
+  
 Edit a message:
 ```bash
 python edit_message.py
-# Paste the timestamp, then enter new message
 ```
+- Paste the timestamp, then enter new message
+  
 Delete a message:
 ```bash
 python delete_message.py
-# Paste the timestamp to delete that message
 ```
+- Paste the timestamp to delete that message
 
 ---
 
